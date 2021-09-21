@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/activity_primeiraactivity_nome_rota"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Insira um nome para a rota"
+        android:inputType="text"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/activity_primeiraactivity_consumo"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Consumo do seu carro"
+        android:inputType="number"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/activity_primeiraactivity_Km_rodado"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:inputType="number"
+        android:hint="Km até o local"
+        android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/activity_primeiraactivity_botao_calcular"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:text="Salvar rota"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
